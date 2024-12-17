@@ -1318,7 +1318,7 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 }
 
 .mat-stroked-button:not(.mat-button-disabled) {
-    border-color: rgba(0, 0, 0, .12)
+    border-color: #E8E8E8
 }
 
 .mat-fab,
@@ -1378,7 +1378,7 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 .mat-raised-button.mat-primary.mat-button-disabled,
 .mat-raised-button.mat-warn.mat-button-disabled {
     color: rgba(0, 0, 0, .26);
-    background-color: rgba(0, 0, 0, .12)
+    background-color: #E8E8E8
 }
 
 .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent .mat-ripple-element,
@@ -1406,7 +1406,7 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 
 .mat-button-toggle .mat-button-toggle-focus-overlay,
 .mat-slider.mat-slider-min-value .mat-slider-focus-ring {
-    background-color: rgba(0, 0, 0, .12)
+    background-color: #E8E8E8
 }
 
 .mat-button-toggle-appearance-standard {
@@ -1556,7 +1556,7 @@ mat-row,
 td.mat-cell,
 td.mat-footer-cell,
 th.mat-header-cell {
-    border-bottom-color: rgba(0, 0, 0, .12)
+    border-bottom-color: #E8E8E8
 }
 
 .mat-calendar-arrow {
@@ -1568,7 +1568,7 @@ th.mat-header-cell {
 .mat-list-single-selected-option:focus,
 .mat-list-single-selected-option:hover,
 .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
-    background: rgba(0, 0, 0, .12)
+    background: #E8E8E8
 }
 
 .mat-calendar-body-cell-content,
@@ -1731,11 +1731,11 @@ th.mat-header-cell {
 .mat-horizontal-stepper-header::after,
 .mat-horizontal-stepper-header::before,
 .mat-stepper-horizontal-line {
-    border-top-color: rgba(0, 0, 0, .12)
+    border-top-color: #E8E8E8
 }
 
 .mat-divider-vertical {
-    border-right-color: rgba(0, 0, 0, .12)
+    border-right-color: #E8E8E8
 }
 
 .mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-description,
@@ -1795,7 +1795,7 @@ th.mat-header-cell {
 }
 
 .mat-form-field-appearance-outline .mat-form-field-outline {
-    color: rgba(0, 0, 0, .12)
+    color: #E8E8E8
 }
 
 .mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline {
@@ -2061,7 +2061,7 @@ th.mat-header-cell {
 }
 
 .mat-stepper-vertical-line::before {
-    border-left-color: rgba(0, 0, 0, .12);
+    border-left-color: #E8E8E8;
     top: -16px;
     bottom: -16px
 }
@@ -2309,6 +2309,6 @@ th.mat-header-cell {
 }
 
 input.ng-valid {
-    color: #1A1A1A;
+    color: #1A1A1A !important;
     font-weight: 700;
 }
