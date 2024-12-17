@@ -1760,7 +1760,7 @@ th.mat-header-cell {
 
 .mat-form-field-label,
 .mat-hint {
-    color: rgba(0, 0, 0, .6)
+    color: #767676
 }
 
 .mat-form-field-ripple,
@@ -1771,19 +1771,19 @@ th.mat-header-cell {
 
 .mat-form-field-appearance-legacy .mat-form-field-underline {
     bottom: 1.25em;
-    background-color: rgba(0, 0, 0, .42)
+    background-color: #1A1A1A
 }
 
 .mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline,
 .mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .42) 0, rgba(0, 0, 0, .42) 33%, transparent 0);
+    background-image: linear-gradient(to right, #1A1A1A 0, #1A1A1A 33%, transparent 0);
     background-size: 4px 100%;
     background-repeat: repeat-x
 }
 
 .mat-form-field-appearance-fill .mat-form-field-underline::before,
 .mat-form-field-appearance-standard .mat-form-field-underline {
-    background-color: rgba(0, 0, 0, .42)
+    background-color: #1A1A1A
 }
 
 .mat-form-field-appearance-fill .mat-form-field-flex {
@@ -1807,19 +1807,19 @@ th.mat-header-cell {
 }
 
 .mat-input-element::placeholder {
-    color: rgba(0, 0, 0, .42)
+    color: #1A1A1A
 }
 
 .mat-input-element::-moz-placeholder {
-    color: rgba(0, 0, 0, .42)
+    color: #1A1A1A
 }
 
 .mat-input-element::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, .42)
+    color: #1A1A1A
 }
 
 .mat-input-element:-ms-input-placeholder {
-    color: rgba(0, 0, 0, .42)
+    color: #1A1A1A
 }
 
 .mat-form-field.mat-accent .mat-input-element {
@@ -1941,7 +1941,7 @@ th.mat-header-cell {
 }
 
 .mat-select-placeholder {
-    color: rgba(0, 0, 0, .42)
+    color: #1A1A1A
 }
 
 .mat-drawer {
@@ -1964,7 +1964,7 @@ th.mat-header-cell {
 }
 
 .mat-drawer-backdrop.mat-drawer-shown {
-    background-color: rgba(0, 0, 0, .6)
+    background-color: #767676
 }
 
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
@@ -2306,4 +2306,9 @@ th.mat-header-cell {
     color: rgba(255, 255, 255, .7);
     background: #323232;
     box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+}
+
+input.ng-valid {
+    color: #1A1A1A;
+    font-weight: 700;
 }
